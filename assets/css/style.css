@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ------------ HEADER SECTION CSS START -------------- */
+.main-header-area{
+    padding: 20px 0px;
+    border-bottom: 11px solid #3037EF;
+}
+.logo-area{}
+.logo-area .logo{}
+.logo-area .logo .logo-link{}
+.logo-area .logo .logo-link .logo-image{}
+
+.contact-area{
+    text-align: right;
+}
+.contact-area .contact-details{
+
+}
+.contact-area .contact-details .contact-text{
+    color: var(--Black, #000);
+leading-trim: both;
+text-edge: cap;
+font-family: Avenir;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.48px;
+text-transform: uppercase;
+}
+.contact-area .contact-details .phone-number-text{
+color: var(--Black, #000);
+text-align: center;
+leading-trim: both;
+text-edge: cap;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+@media all and (max-width:576px) {
+    .logo-area .logo {
+        text-align: center;
+        padding: 20px 0px;
+        width: 100%;
+    }
+    .contact-area {
+        text-align: center;
+    }
+}
+/* ------------ HEADER SECTION CSS END -------------- */
+
+
+
+
+
+
+
+/* ------------ HERO SECTION CSS START -------------- */
+.mian-hero-section{}
+.hero-left{}
+.hero-left .hero-text{
+    color: #000;
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; 
+}
+.hero-left .slogan{
+    color: #000;
+    font-family: Avenir;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 30px 0px;
+}
+.hero-left .zip-form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.hero-left .zip-form .zip-number{
+    border-radius: 6px 0px 0px 6px;
+    border-top: 1px solid #C3C3C3;
+    border-bottom: 1px solid #C3C3C3;
+    border-left: 1px solid #C3C3C3;
+    background: #FFF;
+    color: #000;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 70%;
+    padding: 7px 18px;
+}
+.hero-left .zip-form .get-started-submit-btn{
+    border: none;
+    background: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+
+padding: 7px 18px;
+justify-content: center;
+align-items: center;
+
+border-radius: 0px 6px 6px 0px;
+background: #FF1102;
+}
+
+.hero-right{}
+.hero-right .hero-images{
+    height: auto;
+    width: 100%;
+}
+
+@media all and (max-width:991px){
+    .hero-left .hero-text {
+
+        font-size: 31px;
+
+        line-height: 30px;
+    }
+}
+    @media all and (max-width:767px){
+        .hero-left .hero-text {
+          
+            font-size: 42px;
+         
+            line-height: 46px; 
+        }
+        .hero-left {
+            padding: 40px 0px;
+        }
+
+}
+
+@media all and (max-width:576px){
+.hero-left {
+	padding: 40px 15px;
+}
+
+}
+@media all and (max-width:480px){
+    .hero-left .hero-text {
+
+        font-size: 31px;
+
+        line-height: 30px;
+    }
+    .hero-left .slogan {
+      
+        padding: 17px 0px;
+    }
+}
+
+@media all and (max-width:370px){
+    .hero-left .hero-text {
+
+        font-size: 28px;
+
+        line-height: 25px;
+    }
+    .hero-left .slogan {
+      
+        padding: 17px 0px;
+    }
+}
+
+@media all and (max-width:340px){
+    .hero-left .hero-text {
+
+        font-size: 25px;
+
+        line-height: 25px;
+    }
+    .hero-left .slogan {
+      
+        padding: 17px 0px;
+    }
+}
+@media all and (max-width:310px){
+    .hero-left .hero-text {
+
+        font-size: 20px;
+
+        line-height: 22px;
+    }
+    .hero-left .slogan {
+      
+        padding: 10px 0px;
+    }
+}
+/* ------------ HERO SECTION CSS END -------------- */
+
+
+
+
+
+/* ------------ SPONSER SECTION CSS END -------------- */
+.main-sponser-section{
+    border-top: 1px solid #E2E2E2;
+    background: #FFF;
+}
+.sponser-item{
+    padding: 50px 0px;
+}
+.sponser-item .sponder-logo{}
+
+
+@media all and (max-width:767px) {
+    .sponser-item .sponder-logo {
+        width: 80%;
+    }
+}
+
+@media all and (max-width:480px) {
+    .sponser-item {
+        padding: 20px 0px;
+    }
+}
+/* ------------ SPONSER SECTION CSS END -------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------ FOOTER SECTION CSS START -------------- */
+.main-footer-section{
+
+padding: 50px 0px;
+
+background: #202137;
+}
+.footer-logo-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid  rgba(209, 226, 255, 0.40);
+    padding-bottom: 20px;
+}
+.footer-logo-area .f-logo{
+    flex-basis: 30%;
+}
+.footer-logo-area .footer-security-logo{
+    flex-basis: 70%;
+    text-align: right;
+}
+.footer-logo-area .footer-security-logo img{
+    margin-left: 10px;
+}
+.footer-text-area{}
+.footer-text-area .copywrite-text{
+    color: #D1E2FF;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Avenir;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 20px 0px 40px;
+}
+.footer-text-area .footer-text{
+    color: #D1E2FF;
+    text-align: justify;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: Avenir;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer-text-area .footer-text a{
+    color: #D1E2FF;
+leading-trim: both;
+text-edge: cap;
+font-family: Avenir;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}
+
+
+@media all and (max-width:415px) {
+    .footer-logo-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+flex-wrap: wrap;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .footer-logo-area .f-logo{
+        flex-basis: 100%;
+    }
+    .footer-logo-area .footer-security-logo{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .footer-logo-area .footer-security-logo img{
+        margin-left: 0;
+        margin: 20px 10px;
+
+    }
+    .main-footer-section {
+        padding: 25px 0px;
+        background: #202137;
+    }
+    .footer-text-area .copywrite-text {
+      
+        margin: 20px 0px 15px;
+    }
+}
+/* ------------ FOOTER SECTION CSS END -------------- */
+
+
+
+
+
+
+
+
