@@ -392,7 +392,81 @@ flex-wrap: wrap;
 */
 
 /* ------------ HERO FORM SECTION START -------------- */
+.mian-hero-form-section{}
+.step-area{
+    background: #161A7F;
+    padding: 80px 40px;
+}
+.step-area .step-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 60px;
+    
+}
+.step-area .step-item::after {
+	position: absolute;
+	content: "";
+	clear: both;
+	height: 72px;
+	width: 5px;
+	background: #fff;
+	left: 8%;
+	top: 88%;
+}
+.step-area .step-item::after :last-child{
+    display: none;
+}
+.step-area .step-item .step-count {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	background: #FFF;
+	padding: 10px;
+	flex-basis: 20%;
+	height: 35px;
+}
+.step-area .step-item .step-count span{
+    display: flex;
+    color: #161A7F;
+text-align: center;
 
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.step-area .step-item .step-details{
+    text-align: left;
+    flex-basis: 80%;
+    padding-left: 10px;
+}
+.step-area .step-item .step-details .step-number{
+    color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.step-area .step-item .step-details .step-name{
+    color: #FFF;
+font-family: Avenir;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+/* .line {
+	height: 5px !important;
+	width: 114px;
+	background: red;
+	transform: rotate(90deg);
+	margin-left: -37px;
+} */
 /* ------------ HERO FORM SECTION END -------------- */
 
 
