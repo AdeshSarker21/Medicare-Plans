@@ -405,6 +405,9 @@ flex-wrap: wrap;
     margin-bottom: 60px;
     
 }
+.active-itme{
+    background: #292EB7;
+}
 .step-area .bar{
     position: relative;
 }
@@ -700,5 +703,63 @@ width: 100%;
 /* ------------ HERO FORM SECTION END -------------- */
 
 
+
+/* ------------ EXIT POPUP SECTION START -------------- */
+body{
+    position: relative;
+}
+.popup-section {
+	width: 40%;
+	position: fixed;
+	top: 25%;
+	left: 30%;
+}
+.popup-section .popup-box {
+    border-radius: 10px;
+    border: 1px solid #C3C3C3;
+    background: #FFF;
+    padding: 30px;
+}
+.popup-section .popup-box .popup-logo{}
+.popup-section .popup-box .popup-heading{
+    color: #000;
+leading-trim: both;
+text-edge: cap;
+font-family: Poppins;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 123.077% */
+padding: 28px 0px;
+}
+.popup-section .popup-box .popup-text{
+    color: #000;
+leading-trim: both;
+text-edge: cap;
+font-family: Avenir;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 130% */
+margin-bottom: 48px;
+
+}
+.popup-section .popup-box .call-button{
+    color: #FFF;
+text-align: center;
+leading-trim: both;
+text-edge: cap;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+border-radius: 6px;
+background: #FF1102;
+width: 100%;
+padding: 10px 18px;
+}
+/* ------------ EXIT POPUP SECTION END -------------- */
 
 
