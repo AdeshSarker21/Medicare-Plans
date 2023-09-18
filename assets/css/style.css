@@ -31,7 +31,9 @@ h6 {
     margin: 0;
     padding: 0;
 }
-
+body{
+    font-family: Poppins !important;
+}
 
 /* ------------ HEADER SECTION CSS START -------------- */
 .main-header-area{
@@ -376,6 +378,22 @@ flex-wrap: wrap;
 
 
 
+
+/* ================================================= */
+/* ============= STEP 02 PAGE START ================ */
+/* ================================================= */
+
+/*
+|
+|
+|
+|
+|
+*/
+
+/* ------------ HERO FORM SECTION START -------------- */
+
+/* ------------ HERO FORM SECTION END -------------- */
 
 
 
